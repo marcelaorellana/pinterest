@@ -1,0 +1,50 @@
+body{
+
+}
+img{
+	width: 250px;
+	height: auto;
+	border-radius: 10px;
+}
+/*.pints{
+	margin: 20px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: flex-start;
+	column-gap: 5px;
+}
+.tarjeta{
+	background-color: pink;
+	width: 200px;
+	margin: 5px;
+	align-self: flex-start;
+}*/
+.divUsuario{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.pints {
+  column-width: 250px;
+  column-gap: 5px;
+  padding: 0 25px;
+  .tarjeta {
+  	background-color: pink;
+    position: relative;
+    display: inline-block;
+    width: 250px; 
+    height: auto;
+    margin: 0 0 5px 0;
+
+
+  }
+}
+
+.modal-content{
+	width: 385px;
+	img{
+		width: 350px;
+	}
+}
