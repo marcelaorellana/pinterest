@@ -6,20 +6,49 @@ img{
 	height: auto;
 	border-radius: 10px;
 }
-/*.pints{
-	margin: 20px 30px;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-items: flex-start;
-	column-gap: 5px;
+h5{
+	font-weight: bolder;
 }
-.tarjeta{
-	background-color: pink;
-	width: 200px;
-	margin: 5px;
-	align-self: flex-start;
-}*/
+.navbar-default{
+	background-color: white;
+}
+#input_container { position:relative; padding:0; margin:0; }
+#input { height:20px; margin:0; padding-left: 30px; }
+
+#input_img { position:absolute; bottom:8px; left:10px; width:10px; height:10px; }
+.navbar-nav>li>a{
+}
+nav{
+	height: 40px;
+	background-color: white;
+	.form-control{
+		width: 700px;
+		margin-top: 10px;
+	}
+	.fa{  
+		font-size: 30px;
+	}
+	img{
+		width: 30px;
+		height: auto;
+		padding: 0;
+		margin: 0;
+	}
+	.circle{
+		border-radius: 50%;
+		margin-right: 10px;
+	}
+	.centrar{
+		display: flex;
+		align-items: center;
+	}
+	.fa-pinterest{
+		color: #BE081B;
+		margin-right: 10px;
+		font-size: 30px;
+	}
+
+}
 .divUsuario{
 	display: flex;
 	flex-direction: row;
@@ -31,20 +60,73 @@ img{
   column-gap: 5px;
   padding: 0 25px;
   .tarjeta {
-  	background-color: pink;
     position: relative;
     display: inline-block;
     width: 250px; 
     height: auto;
     margin: 0 0 5px 0;
 
-
   }
 }
-
 .modal-content{
 	width: 385px;
 	img{
 		width: 350px;
 	}
+	.usuario{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		i{
+			font-size: 40px;
+			margin-right: 5px;
+			color: #E1C6BD;
+		}
+		.usuario-central{
+			display: flex;
+			align-items: center;
+		}
+	}
+}
+
+.usuario{
+	margin-bottom: 10px;
+}
+.hashtag{
+	font-size: 13px;
+}
+.tarjeta{
+	i{
+		font-size: 20px;
+		margin-right: 5px;
+		color: #E1C6BD;
+	}
+}
+.modalHeader{
+	margin: 5px 0;
+	display: flex;
+	justify-content: space-between;
+	i{
+		color: #999999;
+		margin-right: 5px;
+	}
+}
+.btn-guardar{
+	background-color: #BE081B;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	padding: 5px;
+	i{
+		color: white;
+	}
+}
+.btn-leer{
+	border: none;
+	border-radius: 4px;
+	padding: 0 5px;
+	height: 30px;
+}
+.modal-backdrop {
+   background-color: #999999;
 }
