@@ -24,6 +24,7 @@ nav{
 	.form-control{
 		width: 700px;
 		margin-top: 10px;
+
 	}
 	.fa{  
 		font-size: 30px;
@@ -48,6 +49,27 @@ nav{
 		font-size: 30px;
 	}
 
+}
+.fichas{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.ficha{
+	padding: 20px 15px;
+	margin: 8px;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+}
+.layer{
+	border-radius: 10px;
+}
+.ficha-p{
+	z-index: 999;
+	opacity: 1;
+	position: relative;
+	margin: 0;
 }
 .divUsuario{
 	display: flex;
