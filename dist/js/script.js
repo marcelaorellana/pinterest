@@ -12643,7 +12643,7 @@ $(document).ready(function(){
 			});
 		var layer = $("<div class='layer'>");
 			layer.css({
-				'background-color': 'rgba('+ (j+100) +', '+(j*20)+', '+(j*10) + ', 0.6)',
+				'background-color': 'rgba('+ (j+100) +', '+(j*20)+', '+(j*12) + ', 0.6)',
 				'position': 'absolute',
     			'top': 0,
     			'left': 0,
